@@ -12,3 +12,4 @@
 | 8 | no connected | IRQ |
 
 Dependency: https://github.com/maniacbug/RF24
+Can also be used with: https://github.com/tmrh20/RF24 (optimized fork)
