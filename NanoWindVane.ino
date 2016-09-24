@@ -7,7 +7,7 @@
 //============================================================================
 
 #define PIN_TACHO 2
-#define PIN_DHT 9
+#define PIN_DHT 4
 #define PIN_433_EMITTER 3
 #define TACHO_UPDATE_DELAY 100
 #define UPDATE_DELAY 60000
@@ -72,7 +72,7 @@ void loop()
     unsigned long rpmCopy = rpm;
     rpm = 0;
     // DHT Sensor
-    int chk = DHT.read22(PIN_DHT);
+    int chk = DHT.read11(PIN_DHT);
     if (chk != DHTLIB_OK)
     {
       currentTemperature = currentHumidity = -1;
@@ -82,9 +82,9 @@ void loop()
       lnk.setValue(2, currentTemperature = DHT.temperature);
       lnk.setValue(3, currentHumidity = DHT.humidity);
       sendRf433(lnk.getEncoded32(2));
-      delay(1000);
+      delay(2000);
       sendRf433(lnk.getEncoded32(3));
-      delay(1000);
+      delay(2000);
     }
     // RPM
     lnk.setValue(1, rpmCopy);
