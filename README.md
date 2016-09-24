@@ -2,11 +2,11 @@
 
 #### Electronic
 
-[![Alt text](https://raw.githubusercontent.com/rbello/NanoWindVane/doc/Electronic_bb.png)](https://raw.githubusercontent.com/rbello/NanoWindVane/doc/Electronic_bb.png)
+[![Alt text](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic_bb.png)](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic_bb.png)
 
 #### Gears
 
-[![Gears][https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Gears_bb.png]][http://geargenerator.com/#200,200,100,6,1,1,15702.900000006599,3,1,16,2.6666666666666665,6,12,-110,0,0,10,1.6666666666666667,6,12,0,1,1,60,0.8571428571428571,70,20,-60,0,0,2,742]
+[![Gears](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Gears_bb.png)](http://geargenerator.com/#200,200,100,6,1,1,15702.900000006599,3,1,16,2.6666666666666665,6,12,-110,0,0,10,1.6666666666666667,6,12,0,1,1,60,0.8571428571428571,70,20,-60,0,0,2,742)
 
 #### Convert the .svg file to 3D model using Blender
 
