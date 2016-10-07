@@ -1,8 +1,10 @@
 # Wind Vane
 
+[![Photo](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/DSCF3660.JPG)](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/DSCF3660.JPG)
+
 ### Electronic
 
-[![Electronic schema](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic_bb.png)](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic_bb.png)
+[![Electronic schema](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic2_bb.png)](https://raw.githubusercontent.com/rbello/NanoWindVane/master/doc/Electronic2_bb.png)
 
 ### Casing
 
