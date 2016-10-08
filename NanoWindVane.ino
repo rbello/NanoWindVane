@@ -53,7 +53,7 @@ void setup()
   rf433write.enableTransmit(PIN_433_EMITTER);
   rf433write.setPulseLength(320);
   rf433write.setProtocol(2);
-  rf433write.setRepeatTransmit(5);
+  rf433write.setRepeatTransmit(10);
 
   // Tachometer
   pinMode(PIN_TACHO, INPUT);
@@ -110,7 +110,7 @@ void loop()
 void execute_tachometer() {
   unsigned long stopTime = millis() + TACHO_RECORD_DELAY;
   unsigned long lastTachoUpdate = 0; // Time stamp for tachometer sensor update
-  unsigned int lastTachoValue = HIGH;
+  unsigned int lastTachoValue = digitalRead(PIN_TACHO);
   unsigned long rpt = 0;
   while (stopTime > millis()) {
     if (digitalRead(PIN_TACHO) != lastTachoValue) {
